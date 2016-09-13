@@ -7,7 +7,7 @@ import java.net.URL;
  */
 public interface GlobalConsts {
     /**
-     * 地址
+     * address
      */
     String URL="http://v.juhe.cn";
 }

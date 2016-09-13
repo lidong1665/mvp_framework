@@ -17,7 +17,7 @@ import rx.Observable;
 public interface ApiManagerService  {
 
     /**
-     * 获取周公解梦类型
+     * getDreamData
      * @param key
      * @return
      */

@@ -3,15 +3,7 @@ package com.lidong.mvp_framework.presenter;
 import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;
 
-/**
- * @className:BasePresenter
- * @desc:
- * @author:lidong
- * @createtime : 2016/9/12 10:36
- * @email :lidong@chni.com.cn
- * @qq:1561281670
- * @company:chni
- */
+
 public  class BasePresenter<V> implements Presenter<V> {
 
     public V mvpView;

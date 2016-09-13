@@ -13,7 +13,7 @@ public class ApiManager {
     private static final ApiManagerService apiManagerService = RetrofitUtil.provideRetrofit().create(ApiManagerService.class);
 
     /**
-     * 获取周公解梦类型
+     * get dream
      * @param key
      * @return
      */

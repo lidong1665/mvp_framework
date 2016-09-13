@@ -10,23 +10,11 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * @className:RetrofitUtil
- * @desc:
- * @author:lidong
- * @createtime : 2016/9/12 14:50
- * @email :lidong@chni.com.cn
- * @qq:1561281670
- * @company:chni
- */
+
 public class RetrofitUtil {
 
     public static final HttpUrl PRODUCTION_API_URL = HttpUrl.parse(GlobalConsts.URL);
 
-    /**
-     *
-     * @return
-     */
     public static OkHttpClient provideOkHttpClient() {
         OkHttpClient okHttpClient = new OkHttpClient();
         okHttpClient.newBuilder().
