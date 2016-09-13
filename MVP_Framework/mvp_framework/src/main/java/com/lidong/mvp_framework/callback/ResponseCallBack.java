@@ -1,8 +1,5 @@
 package com.lidong.mvp_framework.callback;
 
-import com.lidong.mvp_framework.base.BaseBean;
-
-
 public interface ResponseCallBack<T> {
 
     void onStart();

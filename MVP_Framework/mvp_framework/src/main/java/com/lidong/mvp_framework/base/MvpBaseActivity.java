@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import com.lidong.mvp_framework.presenter.BasePresenter;
 
+
 public abstract class MvpBaseActivity<P extends BasePresenter> extends BaseActivity{
 
     protected P mvpPresenter;
