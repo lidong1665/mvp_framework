@@ -16,7 +16,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.0.2"
     }
     buildTypes {
 
@@ -37,14 +37,13 @@ dependencies {
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0'
     compile 'io.reactivex:rxjava:1.1.0'
     compile 'io.reactivex:rxandroid:1.1.0'
-    compile 'com.lidong.mvp_framework:mvp_framework:1.0.0'
 }
 
 publish {
     userOrg = 'lidong1665'//bintray.com用户名
     groupId = 'com.lidong.mvp_framework'//jcenter上的路径,要保持与之前导入到bintary中的package名一致
     artifactId = 'mvp_framework'//项目名称
-    publishVersion = '1.0.0'//版本号
+    publishVersion = '1.0.2'//版本号
     desc = 'this is a path mvp_framework library.'//描述
     website = 'https://github.com/lidong1665/mvp_framework'//填写之前上传到github后的地址
 }
